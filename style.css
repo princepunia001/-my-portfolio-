@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Alegreya:ital@1&family=Amatic+SC&family=Delicious+Handrawn&family=Hedvig+Letters+Serif:opsz@12..24&family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Rubik+Bubbles&family=Source+Code+Pro:wght@200&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.nav{
+  display: flex;
+  flex-direction: column;
+  background-color: #e8e6e9;
+}
+.nav ul{
+display: flex;
+}
+.nav ul li h2{
+  font-size: 40px;
+  font-style: inherit;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  color: #0f212e;
+
+}
+.nav ul li{
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+ 
+  
+}
+.nav ul li a{
+  font-family: 'Hedvig Letters Serif', serif;
+  color: black;
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+  font-size: 17px;
+  transition: 'all 2s ease-in';
+}
+.nav ul li a:hover{
+  color: rgb(66, 3, 66);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border:2px solid black;
+}
+.list_items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.home{
+  height: 494px;
+  background-image: url('https://wallpapercave.com/wp/wp3709137.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  padding: 34px;
+}
+.home  .profile_img{
+  display: flex;
+  margin: 90px 10px 10px 103px;
+}
+.home img{
+  border: 2px solid black;
+  border-radius:50% ;
+  height: 250px;
+  width: 250px;
+  margin: 50px;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.home .main_content{
+display: flex;
+flex-direction: column;
+margin: 180px 10px 10px 10px;
+
+  padding: 10px 10px 10px 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.home .main_content h2{
+  font-family: monospace;
+  color: black;
+  font-size: 30px;
+}
+.home .main_content a{
+  font-family: monospace;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+.home .main_content a:hover{
+  color: rgb(185, 29, 233);
+}
+.about{
+  background-color: aqua;
+  background-image: url('https://media.istockphoto.com/id/1044054174/photo/back-to-school.jpg?s=612x612&w=0&k=20&c=fXo_zVRJXWtz16AWUIn6qa7i-aGPJWCjL7oCMuLJYo4=');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+color: white;
+padding: 33px;
+}
+.about h1{
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  font-family: cursive;
+}
+.about h4{
+  font-size: 23px;
+  font-family:cursive;
+  padding: 20px;
+}
+.about p{
+  font-size: 20px;
+  font-family: cursive;
+  padding: 30px;
+}
+.projects{
+  text-align: center;
+  background-image: url('https://media.istockphoto.com/id/1160029786/photo/abstract-blurred-blue-an-teal-color-gradient-background-with-shiny-glowing-light-effect-and.webp?b=1&s=170667a&w=0&k=20&c=oWZmocBSy7znDa0WmYAdzU4HyAfYxo6--G5YTyhNNQ0=');
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+  padding: 50px 20px 50px 20px;
+}
+.card_container{
+  display: flex;
+  justify-content: center;
+}
+.cards{
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  background-color: rgb(227 248 245);
+  border-radius: 0px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+text-align: center;
+
+}
+.projects h1{
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn{
+  border: 1px;
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+  height: 40px;
+  width: 100px;
+  margin: 100px 20px 20px 20px;
+}
+.btn a{
+  color: white;
+  text-decoration: none;
+}
+.btn:hover{
+  opacity: 0.6;
+  border-radius: 8px;
+}
+.contact{
+  text-align: center;
+  background-image: url('https://media.istockphoto.com/id/1342018576/photo/blue-talk-bubbles.webp?b=1&s=170667a&w=0&k=20&c=IeZry5PEuy2Tle2lvgWuVYEzHqbpezgBVCpAJLvOwwY=');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+padding: 100px;
+}
+.contact h1{
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  font-family: cursive;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form input{
+  width: 400px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid grey;
+  border-radius: 6px;
+  color: grey;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: cursive;
+}
+.form input[type='submit']{
+  width:200px ;
+  color: black;
+
+}
+.contact_button{
+  border: 1px;
+  background-color: #5894c5;
+  border-radius: 10px;
+  color: white;
+  height: 40px;
+  width: 100px;
+  color: white;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contact_button:hover{
+  opacity: 0.8;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+  transition: 'all 4s ease-in';
+ 
+}
+.fa:hover{
+  border: 0.1px solid black;
+  color: rgb(12, 9, 9);
+  box-shadow: 0 12px 14px 0 rgba(0, 0, 0, 0.2), 0 12px 30px 0 rgba(0, 0, 0, 0.19);
+}
+.footer{
+  text-align: center;
+  background-color: #75b9ea;
+  color: rgb(80, 73, 73);
+}
+.message{
+  color: black;
+  font-family: cursive;
+  font-size: 20px;
+}
+/* .main_content:hover{
+font-size: 40px;
+}*/
